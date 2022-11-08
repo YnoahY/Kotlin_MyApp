@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "MyApplication1"
+include ':app'
+include ':myApp2_margin'
+include ':myApp3_layout'
+include ':myApp3_layout:myapp4_practice'
+include ':myapp4_extm'
+include ':myapp5_exts_button'
